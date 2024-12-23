@@ -11,7 +11,7 @@ var index = 0;
 
 startCarousel = () => {
     //update the image
-    carousel.style.backgroundImage = `url(${images[index]})`;
+    carousel.style.backgroundImage = `url(pictures/${images[index]})`;
     carousel.classList.remove("fade");
     void carousel.offsetWidth;
     carousel.classList.add("fade");
